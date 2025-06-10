@@ -1,3 +1,4 @@
+
 # News Frontend
 
 Bu proje, kullanıcıların ilgi alanlarına göre özelleştirilmiş haber akışını görüntüleyebileceği React tabanlı bir haber uygulamasıdır. Kullanıcılar kategorilere göre filtreleme yapabilir ve ilgili haberler dinamik olarak yüklenir.
@@ -22,16 +23,22 @@ Bu proje, kullanıcıların ilgi alanlarına göre özelleştirilmiş haber akı
    ```bash
    git clone https://github.com/muhsinlight/news-frontend.git
    cd news-frontend
-   Gerekli bağımlılıkları yükleyin:
+   ```
 
-bash
+2. Gerekli bağımlılıkları yükleyin:
 
-npm install
-Proje dizininde bir .env dosyası oluşturun ve içerisine kendi backend URL’inizi belirtin:
+   ```bash
+   npm install
+   ```
 
-env
+3. Proje dizininde bir `.env` dosyası oluşturun ve içerisine kendi backend URL’inizi belirtin:
 
-REACT_APP_API_BASE_URL=https://api.ornekdomain.com/api
-Uygulamayı başlatın:
+   ```env
+   REACT_APP_API_BASE_URL=https://api.ornekdomain.com/api
+   ```
 
-npm start
+4. Uygulamayı başlatın:
+
+   ```bash
+   npm start
+   ```

@@ -1,26 +1,37 @@
-News Frontend
-Bu proje, kullanıcıların ilgi alanlarına göre özelleştirilmiş haber akışını görüntüleyebileceği bir React tabanlı haber uygulamasıdır. Kategorilere göre filtreleme yapılabilir ve ilgili haberler dinamik olarak yüklenir.
+# News Frontend
 
-Bu projede React, Axios ve modern CSS kullanılmıştır. API ile haberler çevresel değişken üzerinden yapılandırılabilir bir şekilde alınır (.env desteği vardır).
+Bu proje, kullanıcıların ilgi alanlarına göre özelleştirilmiş haber akışını görüntüleyebileceği React tabanlı bir haber uygulamasıdır. Kullanıcılar kategorilere göre filtreleme yapabilir ve ilgili haberler dinamik olarak yüklenir.
 
-Projeyi çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+## Teknolojiler
 
-Depoyu klonlayın:
+- React
+- Axios
+- Modern CSS
+- Çevresel değişkenler (.env desteği)
 
-git clone https://github.com/muhsinlight/news-frontend.git
+## Özellikler
 
-cd news-frontend
+- Kategorilere göre haber filtreleme
+- API üzerinden dinamik haber yükleme
+- Kolayca yapılandırılabilir API URL’si
 
-Gerekli bağımlılıkları yükleyin:
+## Kurulum ve Çalıştırma
+
+1. Depoyu klonlayın:
+
+   ```bash
+   git clone https://github.com/muhsinlight/news-frontend.git
+   cd news-frontend
+   Gerekli bağımlılıkları yükleyin:
+
+bash
 
 npm install
+Proje dizininde bir .env dosyası oluşturun ve içerisine kendi backend URL’inizi belirtin:
 
-
-Proje dizininde bir .env dosyası oluşturun ve içerisine kendi backend URL’inizi belirtin: 
+env
 
 REACT_APP_API_BASE_URL=https://api.ornekdomain.com/api
-
 Uygulamayı başlatın:
-
 
 npm start
